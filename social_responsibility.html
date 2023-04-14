@@ -1,0 +1,614 @@
+<html>
+	<head>
+		<title></title>
+		<style type="text/css">
+			body{
+				/*background-color:red;
+				background-image:url('images.jpg');
+				background-repeat:no-repeat;
+				background-position:10% 5%;
+				background-attachment:fixed;*/
+				background:red  url('images.jpg')  top right no-repeat fixed;
+				margin:0;
+				}
+				#mainarea{
+					width:100%;
+					height:1500px;
+					background:red;
+					}
+				.inner{
+					width:1200px;
+					height:100%;
+					margin:0 auto;
+					}
+				#toparea{
+					width:100%;
+					/*height:156px;*/
+					height:180px;
+					background:#FFFFFF;
+					padding:45px 0;
+				}
+				#logoarea{
+
+					width:150px;
+					height:100px;
+					float:left;
+					background:#FFFFFF;
+				}
+				#logoarea img{
+					width:110px;
+				}
+				#toparea1{
+					width:30%;
+					height:10px;
+					background:#FFFFFF;
+					padding:45px 0;
+					float:right;
+					text-align:center;
+					padding-bottom:10px;
+					margin-bottom:80px;
+					padding-top:20px;
+					}
+				#toparea1 a:link,#toparea1 a:visited{
+					color:white;
+					border-radius:10px;
+					/*background:black;*/
+					background:#2065CA;
+					padding:10px 25px;
+					text-decoration:none;
+					float:left;
+					}
+				#toparea1 a:hover{
+					color:black;
+					background:yellow;
+					}
+				#toparea2{
+					width:20%;
+					height:10px;
+					background:#FFFFFF;
+					padding:45px 0;
+					float:right;
+					text-align:top;
+					padding-bottom:70px;
+					padding-top:20px;
+					margin-right:10px;
+					/*margin-bottom:80px;*/
+					}
+				#toparea2 h2{
+					color:#5267CA;
+					}
+				#titlearea{
+					width:1050px;
+					height:100px;
+					float:left;
+				
+				}
+				#titlearea h1{
+
+					text-align:top;
+					text-align-valign:valign:top;
+					color:#2065CA;
+				}
+				#titlearea h3{
+
+					text-align:top;;
+					color:#2065CA;
+				}
+				
+				#menuarea{
+					width:100%;
+					height:28px;
+					background:#2065CA;
+					text-align:center;
+					padding:10px 0
+					}
+				#menuarea ul{
+					list-style-type:none;
+					margin:0;
+					padding:0;
+					text-align:center;
+					}
+				#menuarea ul li{
+					float:left;
+					text-align:center;
+					}
+				#menuarea ul li a:link,#menuarea ul li a:visited{
+					/*color:black;*/
+					text-decoration:none;
+					/*background:white;
+					
+					border-right:solid 1px black;
+					padding:10px 52px;*/
+					display:block;
+					padding:5px 30px;
+					text-align:center;
+					text-transform:capitalize;
+					color:white;
+					}
+				#menuarea ul li a:hover{
+					color:black;
+					/*background:black;*/
+					background:#DDDDDD;
+					} 
+				#menuarea ul li ul{
+					display:none;
+					
+					}
+				#menuarea ul li:hover ul{
+					/*background:#2065CA;*/
+					background:#F9F9F9;
+					display:block;
+					position:absolute;
+					z-index:1000;
+					
+					}
+				#menuarea ul li:hover ul li{
+					float:none;
+					}
+				#menuarea ul li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{
+					border:none;
+					border-bottom: solid 1px black;
+					text-align:left;
+					color:black;
+					}
+				#menu1{
+					width:1000px;
+					height:200px;
+					background:orange;
+					float:left;
+			
+					}
+				#slidearea{
+					width:100%;
+					height:427px;
+					
+					background:#FFF;
+					}
+				#slidearea img{
+					width:100%;
+					
+					}
+				#sarea{
+					width:100%;
+					height:28px;
+					background:#2065CA;
+					text-align:center;
+					padding:10px 0
+					list-style:none;
+					}
+				#sarea ul li{
+					text-align:left;
+					}
+				#karea{
+					width:100%;
+					height:108px;
+					background:#FFFFFF;
+					}
+				#karea h3{
+					color:white;
+					background:blue;
+					border-left:solid 10px black;
+					padding:10px 20px;
+				}
+				#karea h3:hover{
+					color:black;
+					background:yellow;
+				}
+				#karea p{
+					color:blue;
+					text-align:justify;
+				}
+				#karea p b{
+					color:red;
+				}
+				#karea ol li {
+					color:blue;
+					}
+				#karea ol li b {
+					color:blue;
+					}
+				#karea ol li ul li{
+					list-style:circle url('http://mpsckp.com/images/arr.png') inside;
+					text-align:justify;
+					}
+				.qarea{
+					width:200px;
+					height:130px;
+					float:left;
+					/*padding:15px 20px;*/
+					margin:20px;
+					}
+				.qarea img{
+					/*width:187px;
+					height:275px;*/
+					width:187px;
+					height:193px;
+					opacity:0.7;
+					float:left;
+					}
+				.qarea img:hover{
+					opacity:1;
+					border-radius:20px 20px;
+					}
+				
+				.bg00{
+					background:white;
+					}
+				.bg22{
+					background:white;
+					}
+				.bg33{
+					background:white;
+					}
+				.bg44{
+					background:white;
+					}		
+				#darea{
+					width:100%;
+					height:900px;
+					background:#FFFFFF;
+					}
+				#footer{
+					width:100%;
+					height:460px;
+					background:blue;
+					}
+				#logo1area{
+
+					width:150px;
+					height:100px;
+					float:left;
+					background:blue;
+					padding:20px 0 ;
+					
+					
+				}
+				#logo1area img{
+					width:110px;
+					/*padding:20 0;*/
+					padding-left:20;
+					padding-right:0;
+					padding-bottom:10;
+					padding-top:10;
+					
+				}
+				#title1area{
+					width:1050px;
+					height:100px;
+					float:left;
+				
+				}
+				#title1area h1{
+
+					text-align:top;
+					text-align-valign:valign:top;
+					color:#CED9E2;
+				}
+				#title1area h3{
+
+					text-align:top;;
+					color:#CED9E2;
+				}
+				#footer1{
+					width:200px;
+					height:200px;
+					float:left;
+					margin:10px;
+					/*border-left-style:solid;
+					border-left-width:10px;
+					border-left-color:black;*/
+					border: solid 0px black;
+					color:#CED9E2;
+					background:blue;
+					}
+				#footer2{
+					width:900px;
+					height:200px;
+					float:right;
+					margin:0px;
+					padding:0 20px 10px 40px;
+					/*border-left-style:solid;
+					border-left-width:10px;
+					border-left-color:black;*/
+					border: solid 0px black;
+					color:#CED9E2;
+					background:blue;
+					}
+				#footer ul{
+					list-style-type:none;
+					margin:0;
+					padding:0;
+					}
+				#footer2 ul li{
+					float:left;
+					}
+				#footer2 ul li a:link,#footer2 ul li a:visited{
+					color:#CED9E2;
+					text-decoration:none;
+					background:blue;
+					display:block;
+					padding:10px 52px;
+					border-right:solid 1px black;
+					text-transform:capitalize;
+					}
+				.fullarea{
+					width:100%;
+					height:200px;
+					background:orange;
+					text-align:center;
+				}
+				
+		</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="toparea">
+				<div class="inner">
+					<div id="logoarea">
+						<img src="jsr_logo.png"/>
+
+					</div>		
+					
+					<div id="titlearea">
+						<h1>RAJENDRA <br>VIDYALAYA</h1>
+						<h3><b>Jamshedpur, Jharkhand</b></h3>
+						<h3>(Affiliated to ICSE, Affiliation No. : JH023/1978 )</h3>
+							
+					</div>
+					<div id="toparea1">
+						  
+						<a href="https://rajendravidyalaya.scientificstudy.in/payment?key=rv">Pay Online Fee</a> 
+						<a href="https://rajendravidyalaya.scientificstudy.in/">Parent Login</a>
+
+					</div>
+					<div id="toparea2">
+						<h2>Educating People To Excel<h2>
+
+					</div>	
+				</div>
+			</div>
+			<div id="menuarea">
+				<div class="inner">
+						
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a>
+							<ul>
+								<li><a href="#">About School</a></li>
+								<li><a href="#">Mission</a></li>
+								<li><a href="#">Vision</a></li>
+								<li><a href="#">Social Responsibility</a></li>
+								<li><a href="#">Contact Us</a></li>
+								
+								
+							</ul>
+						</li>
+						<li><a href="#">Academic</a>
+							<ul>
+								<li><a href="#">Curriculum</a></li>
+								<li><a href="#">Co-Curriculum</a></li>
+								<li><a href="#">Calendar</a></li>
+								<li><a href="#">Faculties</a></li>
+								
+								
+								
+							</ul>
+						</li>
+						<li><a href="#">Admissions</a>
+							<ul>
+								<li><a href="#">Procedure</a></li>
+								<li><a href="#">Online-Registration</a></li>
+																
+							</ul>
+						</li>
+						<li><a href="#">Principal's message</a>
+							<ul>
+								<li><a href="#">April 2022</a></li>
+								<li><a href="#">May 2021</a></li>
+								<li><a href="#">January 2021</a></li>
+								<li><a href="#">October 2020</a></li>
+								<li><a href="#">September 2020</a></li>
+								
+								
+							</ul>
+						</li>
+						<li><a href="#">Notice & Events</a>
+							<ul>
+								<li><a href="#">Forthcoming Events</a></li>
+								<li><a href="#">Past Events</a></li>
+								<li><a href="#">Gallery</a></li>
+								<li><a href="#">Notice</a></li>
+								
+							</ul>
+						</li>
+						<li><a href="#">Results</a>
+							<ul>
+								<li><a href="#">ICSC</a></li>
+								<li><a href="#">ISC</a></li>
+								<li><a href="#">XI'th result</a></li>
+								<li><a href="#">L.K.Gresult</a></li>
+								
+							</ul>
+						</li>
+						<li><a href="#">Alumni</a>
+							<ul>
+								<li><a href="#">Register</a></li>
+								
+								
+							</ul>
+						</li>
+						<li><a href="#">Publications</a>
+							<ul>
+								<li><a href="#">Annual Magazine</a></li>
+								<li><a href="#">Half Yearly Magazine</a></li>
+								<li><a href="#">Print Media</a></li>
+								
+								
+							</ul>
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+			<div id="slidearea">
+				<div class="inner">
+					<img src="https://rvjsr.in/public/images/slider/s1.jpg"/>
+					
+					
+				</div>
+			</div>
+			<div id="sarea">
+				<div class="inner">
+					<ul>
+						<li><a href="#">Home</a>/About Us</li>
+						<h1></h1>
+					</ul>
+				</div>
+			</div>
+			<div id="karea">
+				<div class="inner">
+					<h3>Social Responsibility</h3>
+					<p><b>Social responsibility </b> that is, a personal investment in the well-being of others and of the planet-doesn't just happen. It takes intention, attention, and time.</p>
+					<p>Social responsibility can't be taught directly as knowledge, it can be "caught" in a variety of ways--through observations of the behavior of parents, friends and others; through reading and discussions; through a sense of injustice that demands personal action. It can also be caught through schools that encourage community service in some form or through immersion in a class project that, whatever its success, can transform a person's life.</p>
+							<h4> Blood Donation</h4>
+					 			<p>Blood Donation Camp is Organised every year on 30th June, to mark the Death Anniversary of Shri KNS Sharma Ji. Students, Parents and even outsiders flock to donate blood which is collected with the Blood Bank of Jamshedpur This is a signature project of Bihar Association , started on the 25th year of Rajendra Vidyalaya							</p>	
+										
+						<div class="fullarea">
+							<div class="qarea">
+									
+								<img src="blood-donation-01.jpg">
+							</div>
+							<div class="qarea">
+								<img src="blood-donation-02.jpg">
+							</div>
+							<div class="qarea">
+								<img src="blood-donation-03.jpg">
+							</div>
+							<div class="qarea">
+								<img src="blood-donation-04.jpg">
+							</div>
+						</div>
+					
+							
+						<h4>Interact club</h4>
+							<p>The Interact Club of Rajendra Vidyalaya undertook various activities to live up to the moto Service Before Self</p>
+								<h5>22nd April 2019</h5>
+							<p>A Rally was taken out by the members of Interact Club to create awareness among the Residents of Jamshedpur about keeping our Mother Earth Clean and Green				</p>
+							<h5>22nd November</h5>
+							<p>Believing in the Joy of Giving, the members of Interact Club of Rajendra Vidyalaya, celebrated Pre Diwali with the less previledged children of the society. They visited an Orphanage and distributed clothes, and sweets.
+							</p>
+							<div class="qarea">
+								<img src="blood-donation-01.jpg">
+							</div>
+							<div class="qarea">
+								<img src="blood-donation-02.jpg">
+							</div>
+							<div class="qarea">
+								<img src="blood-donation-03.jpg">
+							</div>
+							<div class="qarea">
+								<img src="blood-donation-04.jpg">
+							</div>
+							<p></p>
+					
+						
+				
+					<h4>Admission :</h4>
+					
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
+			<div id="darea">
+				<div class="inner">
+				</div>
+			</div>
+			<div id="boxarea">
+				<div class="inner">
+				</div>
+			</div>
+			<div id="footer">
+				<div class="inner">
+					<div id="logo1area">
+						<img src="jsr_logo 1.png"/>
+
+					</div>		
+					
+					<div id="title1area">
+						<div id="footer1">
+							<h3>Address :</h3>
+							<h4>Rajendra VidyalayaSubarnarekha<br>
+							Link Road, Subarnarekha Link Road, Sakchi
+							<br>SakchiJamshedpur Jharkhand, 831001
+							<br>: rv_jsr@yahoo.com
+							<br>: 06572423206, 9470557805</h4>
+						</div>
+						<div id="footer2">
+							<h4>Useful Links :</h4>
+							<ul>
+								
+								<li><a href="#">about us</a></li>
+								
+								<li><a href="#">contact us</a></li>
+								
+								<li><a href="#">mission & vission</a></li>
+								<li><a href="#">school rules</a></li>
+								<li><a href="#">faculties</a></li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
